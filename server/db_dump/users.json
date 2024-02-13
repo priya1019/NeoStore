@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "61e53021446ff2e9661a64e1"
+  },
+  "fname": "Priya",
+  "lname": "Pandey",
+  "email": "priyapandey4721@gmail.com",
+  "password": "$2b$10$ylUL1ouhDhTd6qwZeTqd3ekKWKivclOpYNd.AYih0ZD.AF2pVAtCK",
+  "confpassword": "12345678",
+  "mobile": 7066559107,
+  "gender": "Female",
+  "dob": {
+    "$date": "1999-10-19T00:00:00Z"
+  },
+  "Address": [
+    {
+      "Address_id": 0.004151710548064846,
+      "address": "Nr. SST College\nB-302,Morya Nagri, near Manere Goan,",
+      "pincode": 421004,
+      "city": "Thane",
+      "country": "India",
+      "_id": {
+        "$oid": "61e53069dcb73561555af4e5"
+      }
+    }
+  ],
+  "__v": 0,
+  "myFile": "myFile-1642410074201.JPG"
+},{
+  "_id": {
+    "$oid": "61e5457a0f229e291f3cdea1"
+  },
+  "fname": "Aarti",
+  "lname": "Ingle",
+  "email": "aartiingle301@gmail.com",
+  "password": "$2b$10$m7/MGqedSjFQYN2r4Sqev.WZU8CsOPFImvlmCv74jeuc.GzJ.gr9i",
+  "confpassword": "aarti@123",
+  "mobile": 9359227898,
+  "gender": "Female",
+  "dob": {
+    "$date": "2000-03-20T00:00:00Z"
+  },
+  "Address": [
+    {
+      "Address_id": 0.7230214119851646,
+      "address": "Morya Nagri manere",
+      "pincode": 421004,
+      "city": "Thane",
+      "country": "India",
+      "_id": {
+        "$oid": "61e5461f0f229e291f3cdec8"
+      }
+    }
+  ],
+  "__v": 0,
+  "myFile": "myFile-1642415776381.jpg"
+}]

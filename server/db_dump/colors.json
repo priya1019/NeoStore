@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "61d45681fe36c5b4929bae67"
+  },
+  "color_name": "blue",
+  "color_code": "#0000FF"
+},{
+  "_id": {
+    "$oid": "61d4574efe36c5b4929bae68"
+  },
+  "color_name": "grey",
+  "color_code": "#808080"
+},{
+  "_id": {
+    "$oid": "61d457a4fe36c5b4929bae69"
+  },
+  "color_name": "black",
+  "color_code": "#000000"
+},{
+  "_id": {
+    "$oid": "61d457d5fe36c5b4929bae6a"
+  },
+  "color_name": "brown",
+  "color_code": "#A52A2A"
+},{
+  "_id": {
+    "$oid": "61d45827fe36c5b4929bae6b"
+  },
+  "color_name": "green",
+  "color_code": "#008000"
+},{
+  "_id": {
+    "$oid": "61d458cbfe36c5b4929bae6c"
+  },
+  "color_name": "white",
+  "color_code": "#FFFFFF"
+},{
+  "_id": {
+    "$oid": "61d45b6dfe36c5b4929bae6d"
+  },
+  "color_name": "pink",
+  "color_code": "#FFC0CB"
+}]

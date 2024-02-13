@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "61d44772fe36c5b4929bae62"
+  },
+  "category_name": "Bed"
+},{
+  "_id": {
+    "$oid": "61d4477dfe36c5b4929bae63"
+  },
+  "category_name": "Sofa"
+},{
+  "_id": {
+    "$oid": "61d44781fe36c5b4929bae64"
+  },
+  "category_name": "Table"
+},{
+  "_id": {
+    "$oid": "61d4478afe36c5b4929bae65"
+  },
+  "category_name": "Cupboard"
+}]

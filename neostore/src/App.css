@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  left:0;
+}
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+.container1{
+  position: relative;
+  width: 50%;
+  padding: 5px;
+}
+.image{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  text-align: center;
+}
+.container1:hover .image{
+  opacity: 0.3;
+}
+.container1:hover .middle{
+  opacity: 1;
+}
+.text{
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.paginationBttns{
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius:  5px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+  cursor: pointer;
+}
+.paginationBttns a:hover{
+  color: white;
+  background-color: #2b2eff;
+}
+.paginationActive a{
+  color: white;
+  background-color: #2b2eff;
+}
+.sidebar{
+  height: 100%;
+  width: 300px;
+  background-color: whitesmoke;
+}
+.SidebarList {
+  height: auto;
+  padding: 0;
+  width: 100%;
+}
+.SidebarList .row1{
+  width: 100%;
+  height: 60px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  color: rgb(38, 91, 189);
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.SidebarList .row1:hover{
+  cursor: pointer;
+  background-color:white;
+}
+.row1 #icon1{
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+.row1 #title1{
+  flex: 70%;
+}
+.SidebarList #active{
+  background-color:white;
+}
+.inp{
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .35rem;
+}
